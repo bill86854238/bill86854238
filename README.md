@@ -24,14 +24,14 @@
 
 ### 📂 精選專案 | Featured Projects
 
-* **[travelroute-studio]** (Private) ── **已上架 Steam 平台**
+* **[travelroute-studio](https://store.steampowered.com/app/4409090?snr=5000_5100__)** (Private) ── **已上架 Steam 平台**
     * 獨立開發並上架至 Steam 平台的跨平台桌面軟體。採用 HTML/JS 技術堆疊搭配桌面包裝引擎，完成從產品開發、Steamworks SDK 整合、跨平台效能優化到平台上架發行的完整產品生命週期。
 
-* **[historyPhoto]** (Private) ── **已上架 Microsoft Store**
-    * 已上架至 Microsoft Store 的高效能本地相簿瀏覽器。採用 C# (WinUI 3) 與本地 SQLite 實作，針對 5 萬張歷史照片 of Metadata 進行索引重構與非同步查詢優化，將檢索延遲從 100 秒壓縮至 0.5 秒內，解決高頻磁碟 I/O 瓶頸。
+* **[historyPhoto](https://www.microsoft.com/store/productId/9NL8S4587L5W?ocid=libraryshare)** (Private) ── **已上架 Microsoft Store**
+    * 已上架至 Microsoft Store 的高效能本地相簿瀏覽器。採用 C# (WinUI 3) 與本地 SQLite 實作，針對 5 萬張歷史照片的 Metadata 進行索引重構與非同步查詢優化，將檢索延遲從 100 秒壓縮至 0.5 秒內，解決高頻磁碟 I/O 瓶頸。
 
-* **[cryptable]** (Private)
-    * 零知識加密關聯式資料表實作。在應用程式端即採用 AES-256 對敏感欄位進行加解密後才寫入資料庫，確保雲端託管服務商在零知識（Zero-Knowledge）前提下完全無法窺探內容，從根源落實端到端（E2E）資料主權防護。
+* **[PetPhotoSorter](https://github.com/bill86854238/PetPhotoSorter)** (Public)
+    * 專為隱私敏感用戶設計的本地端 AI 智慧照片整理工具。整合 YOLO 物件偵測與 CLIP 模型進行特徵分類，並串接本地 Ollama (Qwen2.5-VL 視覺模型) 於邊緣端自動生成繁體中文情境描述，在完全不依賴雲端服務的前提下，於本地端完成多模態 AI 管道整合。
 
 * **[shared-expense-book-v3]** (Private)
     * Next.js (TypeScript) 與 Supabase 共同記帳系統。於資料庫層實作 PostgreSQL RLS (Row Level Security) 物理級資料隔離，並優化 B-Tree 索引與執行計畫調校，從底層根除橫向越權（IDOR）安全性弱點。
