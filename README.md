@@ -37,7 +37,7 @@
     * **完全離線（Offline-first）的 Edge AI 照片整理工具**。串接 YOLOv8 物件偵測與 CLIP 語意特徵分類，並在本地端（NAS/PC）部署 Ollama (Qwen2.5-VL) 進行多模態 AI 管道（Pipeline）整合，在保障資料主權的前提下實現自動化標記。
 
 * **[shared-expense-book-v3]** (Private)
-    * **基於多租戶架構的共同記帳系統**。於資料庫層級實作 PostgreSQL RLS 物理隔離，並進行 B-Tree 索引與執行計畫（Execution Plan）深度優化，從底層根除橫向越權（IDOR）安全性弱點。
+    * **採用多租戶架構的共同記帳系統**。在資料庫層實作 PostgreSQL RLS (Row Level Security) 進行資料隔離，並透過 B-Tree 索引與執行計畫（Execution Plan）優化，解決查詢瓶頸並根除橫向越權（IDOR）安全性弱點。
 
 * **[gas-line-bot-assistant-multiplayer]** (Private)
     * **高併發多人版台鐵誤點通知 LINE Bot**。針對 TDX API 的呼叫配額與執行時間限制，自行設計流量削峰（Traffic Shaving）與多層快取機制，在零成本預算限制下穩定承載通勤族的高頻查詢。
