@@ -24,10 +24,20 @@
 
 ### 📂 精選專案 | Featured Projects
 
-* **[Digital-Bunker-Framework]**：企業級系統資安硬化防禦規範與敏感**資料**物理隔離機制設計。
-* **[HistoryPhoto-Core]**：基於 WinUI 3 與本地 SQLite 的高併發、大檔案相簿檢索與磁碟 I/O 優化引擎。
-* **[Unified-Logger-System]**：高合規醫療/政府環境專用之防篡改自動化日誌審計鏈 (Audit Trail)，確保異質系統**資料**強一致性。
-* **[Taiwan-Train-Delay-Bot]**：針對 LINE 平台與 TDX API 嚴苛配額限制設計的「流量削峰（Traffic Shaving）」與多層快取高併發 LINE Bot。
+* **[travelroute-studio]** (Private) ── **已上架 Steam 平台**
+    * 獨立開發並上架至 **Steam 平台** 的跨平台桌面軟體。採用 **HTML/JS** 技術堆疊搭配桌面包裝引擎，完成從產品開發、**Steamworks SDK** 整合、跨平台效能優化到平台上架發行的完整產品生命週期。
+
+* **[historyPhoto]** (Private) ── **已上架 Microsoft Store**
+    * 已上架至 **Microsoft Store** 的高效能本地相簿瀏覽器。採用 **C# (WinUI 3)** 與本地 **SQLite** 實作，針對 5 萬張歷史照片的 **Metadata** 進行索引重構與非同步查詢優化，將檢索延遲從 100 秒壓縮至 0.5 秒內，解決高頻磁碟 I/O 瓶頸。
+
+* **[cryptable]** (Private)
+    * 零知識加密關係型表格實作。在應用程式端即採用 **AES-256** 對敏感欄位進行加解密後才寫入資料庫，確保雲端託管服務商在零知識（**Zero-Knowledge**）前提下完全無法窺探內容，從根源落實端到端（E2E）資料主權防護。
+
+* **[shared-expense-book-v3]** (Private)
+    * **Next.js (TypeScript)** 與 **Supabase** 共同記帳系統。於資料庫層實作 **PostgreSQL RLS (Row Level Security)** 物理級資料隔離，並優化 B-Tree 索引與執行計畫調校，從底層根除橫向越權（IDOR）安全性弱點。
+
+* **[gas-line-bot-assistant-multiplayer]** (Private)
+    * 台鐵誤點通知多人版 **LINE Bot**。針對 LINE 平台與 **TDX API** 嚴苛的呼叫配額與執行時間限制，手動實作流量削峰（**Traffic Shaving**）與多層快取機制，在零預算架構下穩定承載通勤族的高頻查詢。
 
 ---
 
